@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Streaming Device Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #111111;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    form label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #00bfff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .info {
+      margin-top: 40px;
+    }
+
+    .info p {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+
+    <p>If you have any questions, concerns, or suggestions regarding Streaming Device Guide, please reach out to us using the form below or via the contact details.</p>
+
+    <form action="mailto:your@email.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+      <p><strong>Email:</strong> <a href="mailto:your@email.com">your@email.com</a></p>
+      <p><strong>Support Hours:</strong> Monday to Friday, 9 AM to 6 PM</p>
+    </div>
+  </div>
+</body>
+</html>
